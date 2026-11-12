@@ -1,5 +1,16 @@
 # @tabler/core
 
+## 1.7.5
+
+### Patch Changes
+
+- a00cc81: Fixed a `Datepicker` inside a `.modal` or `.offcanvas` closing before a click on a day lands.
+- 873ca3b: Fixed keyboard navigation of tabs inside `nav-overflow` and a stale active item in its More menu.
+- 5dd7b14: Fixed `NumberInput` ignoring the next click after a hold that reached a bound or ended outside the button.
+- 08652fa: Fixed `data-bs-toggle="toast"` triggers throwing after the toast is created again and following the link `href`.
+- 7c2dfff: Fixed `VectorMap` panning on hover after a pointer was released outside the map.
+- 417bd2a: Removed `body.navbar` selectors that never match and duplicated declarations in `:root`, `.text-correct` and `.text-incorrect`.
+
 ## 1.7.4
 
 ### Patch Changes

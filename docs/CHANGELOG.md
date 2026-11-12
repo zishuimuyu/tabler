@@ -1,5 +1,9 @@
 # @tabler/docs
 
+## 1.7.5
+
+No changes in this release.
+
 ## 1.7.4
 
 ### Patch Changes
